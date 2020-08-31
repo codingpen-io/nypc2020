@@ -19,7 +19,13 @@ arrTime = []
 for i in range(n):
     arrTime.append(time_to_sec(input()))
 
-arrT
-for t1 in arrTime:
-    for t2 in arrTime:
-        if t1
+
+for i in range()
+
+# 0 1 2 3
+# 0 2 1 3
+# 0 3 1 2
+
+4 * 3 * 2 * 1
+---------------
+(4 * 2 * 1

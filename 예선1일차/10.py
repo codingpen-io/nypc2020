@@ -13,8 +13,8 @@ def solve(arr):
                 continue
             s = arr[0] + i + arr[1] + j + arr[2]
             e = eval(s)
-            # print(s, e)
-            if e == float(arr[3]):
+            print(s, e, abs(e - float(arr[3])))
+            if abs(e - float(arr[3])) < 0.1:
                 print(s + '=' + arr[3])
                 return
 
