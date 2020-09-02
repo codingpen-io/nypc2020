@@ -34,10 +34,10 @@ def fill(x, y, prevValue):
     else:
         visit[y][x] = 1
 
-    fill(x-1, y, v)
-    fill(x+1, y, v)
-    fill(x, y-1, v)
-    fill(x, y+1, v)
+    fill(x-1, y, v)  # 왼쪽
+    fill(x+1, y, v)  # 오른쪽
+    fill(x, y-1, v)  # 위
+    fill(x, y+1, v)  # 아래 탐색
 
 
 fill(0, 0, 'S')
